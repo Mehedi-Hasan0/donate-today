@@ -10,6 +10,7 @@ h1 {
 }
 h2 {
   font-size: 45px;
+  color: rgba(18, 18, 18, 1);
 }
 h3 {
   font-size: 30px;
@@ -20,6 +21,10 @@ h4 {
 p {
   font-size: 18px;
   margin-bottom: 30px;
+  color: rgba(112, 112, 112, 1);
+}
+.header-p {
+  color: white;
 }
 /* Hero section */
 .hero-image {
@@ -67,6 +72,7 @@ p {
   height: 103px;
   background-color: rgba(250, 250, 250, 1);
   border-radius: 5px;
+  color: rgba(112, 112, 112, 1);
 }
 .selected-amount {
   cursor: pointer;
@@ -129,12 +135,55 @@ button {
 .box3 {
   background-color: rgba(255, 244, 214, 1);
 }
+/* Donation number section */
+.learn-about-us {
+  margin: 40px 7% 56px;
+  display: flex;
+  justify-content: space-between;
+}
+.about-us {
+  width: 360px;
+  height: 352px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+.item-box1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url(images/donation1.jpg);
+}
+.item-box2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url(images/donation10.jpg);
+}
+.item-box3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url(images/donation9.jpg);
+}
+.item-box1-text {
+  color: white;
+}
+.learn-us-btn {
+  text-decoration: none;
+  height: 48px;
+  font-weight: 500;
+  color: white;
+  border: 2px solid white;
+  padding: 8px 12px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.item-text-btn {
+  margin: 120px 0 0 0;
+}
 /* Get update section */
 .update-getEmail-conatiner {
   width: 810px;
   height: 200px;
   background-color: rgba(255, 244, 214, 1);
-  margin: 50px auto 130px;
+  margin: 70px auto 130px;
 }
 .Updates-box {
   display: flex;
@@ -149,18 +198,22 @@ button {
   background-color: rgba(217, 217, 217, 1);
   border-radius: 4px;
   margin: 76px auto;
+  padding-left: 20px;
 }
 .email-submit-btn {
   height: 48px;
   text-decoration: none;
   font-weight: 800;
   color: white;
-  padding: 11px 18px 13px;
+  padding: 11px 18px 15px;
+  margin-left: -10px;
   background-color: rgba(255, 89, 89, 1);
   font-size: 18px;
-  border-radius: 5px;
+  border-radius: 0 5px 5px 0;
   cursor: pointer;
 }
+
+/* Footer section */
 footer {
   background-color: rgba(30, 30, 30, 1);
   margin-top: 130px;
@@ -169,7 +222,4 @@ footer {
 }
 .special-header {
   color: tomato;
-}
-.footer-text {
-  color: white;
 }
